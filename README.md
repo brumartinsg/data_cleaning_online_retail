@@ -45,8 +45,20 @@ Realizar a limpeza e padronização de um dataset de varejo do mundo real, prepa
 ---
 
 ## 🗂 Estrutura do Projeto
-
- 
+online-retail-data-cleaning/
+│
+├── data/
+│   ├── raw/
+│   │   └── online_retail_real_world.csv
+│   └── processed/
+│       └── online_retail_cleaned.csv
+│
+├── src/
+│   └── data_cleaning.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignoreb 
 
 ---
 
@@ -97,4 +109,18 @@ Clean and standardize a real-world retail dataset to prepare it for:
 ---------
 
 ## 🗂 Project Structure
+online-retail-data-cleaning/
+│
+├── data/
+│   ├── raw/
+│   │   └── online_retail_real_world.csv
+│   └── processed/
+│       └── online_retail_cleaned.csv
+│
+├── src/
+│   └── data_cleaning.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
