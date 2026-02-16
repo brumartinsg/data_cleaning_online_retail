@@ -1,3 +1,33 @@
+# Português-BR: 📊 Online Retail — Projeto de Limpeza de Dados
+
+**Autora:** Bruna Martins  
+**Cargo:** Data Analyst  
+
+---
+
+## 📌 Objetivo do Projeto
+
+Realizar a limpeza e padronização de um dataset de varejo do mundo real, preparando-o para:
+
+- Análises em Business Intelligence  
+- Engenharia de features  
+- Normalização de preços (preço por grama)  
+- Análises agregadas por marca  
+- Aplicações futuras em modelagem de dados  
+
+---
+
+## 🧹 Pipeline de Limpeza
+
+### 1️⃣ Tratamento de Datas
+- Conversão da coluna `OrderDate` para formato datetime  
+- Criação das variáveis derivadas `Year` e `Month`  
+
+### 2️⃣ Tratamento de Preço Unitário
+- Remoção de produtos sem preço válido  
+
+---
+
 # 📊 Online Retail — Data Cleaning Project
 
 **Author:** Bruna Martins  
