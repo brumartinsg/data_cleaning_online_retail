@@ -25,6 +25,28 @@ Realizar a limpeza e padronização de um dataset de varejo do mundo real, prepa
 
 ### 2️⃣ Tratamento de Preço Unitário
 - Remoção de produtos sem preço válido  
+- Imputação de valores ausentes utilizando a mediana por produto  
+- Remoção de valores nulos residuais  
+
+### 3️⃣ Tratamento de Peso
+- Extração do valor numérico do peso a partir de texto bruto  
+- Extração da unidade de medida  
+- Normalização das unidades (g, kg, mg, oz, lb)  
+- Conversão de todas as unidades de massa para gramas  
+- Padronização final das unidades de massa para `"g"`  
+
+### 4️⃣ Padronização de Texto
+- Limpeza da coluna `ProductName`  
+- Limpeza da coluna `Brand`  
+- Remoção de caracteres especiais  
+- Conversão para letras minúsculas  
+- Padronização de espaçamentos  
+
+---
+
+## 🗂 Estrutura do Projeto
+
+ 
 
 ---
 
